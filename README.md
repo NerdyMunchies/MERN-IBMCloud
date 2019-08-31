@@ -423,3 +423,7 @@ To deploy the app to Cloud Foundry:
 $ ibmcloud dev deploy
 ```
 
+# Videos and Readings to get started:
+- [React JS Crash Course - 2019](https://www.youtube.com/watch?v=sBws8MSXN7A)
+- [Redux Crash Course With React](https://www.youtube.com/watch?v=93p3LxR9xfM&feature=youtu.be)
+- [Build a Login/Auth App with the MERN Stack — Part 1 (Backend)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669)
