@@ -128,8 +128,6 @@ module.exports = {
 To define the schema, we will create a model folder. The schema will represent the user. In the terminal, type
 ```
 $ mkdir models && cd models && touch User.js 
-
-y.js
 ```
 In the User.js file, add
 ```
