@@ -1,9 +1,13 @@
 This repository walks through building a minimalistic app using the MERN stack, where you will use MongoDB for the database, Express & NodeJS for the backend, and React for the frontend. Redux will be used with React for state management of the generated React components.
 
 MongoDB: A document-based open source database
+
 Node.js: Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine. Node.js brings JavaScript to the server
+
 Express: A Fast, unopinionated, minimalist web framework for Node.js
+
 React: A JavaScript front-end library for building user interfaces
+
 The user will be able to login/regsiter to access their personal health journal. They will also stay logged in when they close/refresh the page. You will be able to create a new posts as well as read a post.
 
 
@@ -90,18 +94,25 @@ Create a new cluster by selecting AWS as the Cloud Provider and create a free ti
 Next, create database user by going to SECURITY -> Databse Access and click + ADD NEW USER. Make sure to give your user Read and write to any database privileges. Take note of username & password you entered as you will need it later on in your code to connect to your database.
 
 Now, let’s go to whitelisting your IP address. Go to SECURITY → Network Access and click on ALLOW ACCESS FROM ANYWHERE and confirm.
+
 Finally, to create a new database, go to ATLAS → Clusters and click COLLECTIONS under Cluster0 (the cluster name in this case). Click Add my own data and select Create a new Database. Give it a new DATABASE NAME & COLLECTION NAME and click on Create.
+
 Find your MongoDB URI by clicking on Click CONNECT. After selecting the Connect Your Application option, you should be able to get a connection string should be similar to mongodb+srv://<username>:<password>@cluster0-mgv8n.mongodb.net/<dBName>.
+    
 Replace <username> and <password> with the database user credentials you just created and <dBName> with the database name.
 
 ## Cleaning up
 From this point forward in this section, we will be working with the server folder.
-Head back to your project in VSCode and go to server folder in your project and delete the comments.js under the model folder, & mongo.js under the routers folder. Then, go to index.js under routers and comment out or remove the following line
-require('./mongo')(app, server);
 
+Head back to your project in VSCode and go to server folder in your project and delete the comments.js under the model folder, & mongo.js under the routers folder. Then, go to index.js under routers and comment out or remove the following line
+```
+require('./mongo')(app, server);
+```
 
 Open the terminal and type the following to get into the server folder
+```
 $ cd server
+```
 
 Create a config directory and within it a keys.js file
 ```
