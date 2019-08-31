@@ -6,8 +6,6 @@ Express: A Fast, unopinionated, minimalist web framework for Node.js
 React: A JavaScript front-end library for building user interfaces
 The user will be able to login/regsiter to access their personal health journal. They will also stay logged in when they close/refresh the page. You will be able to create a new posts as well as read a post.
 
-[Screenshot of app components]
-
 
 # Pre-requites
 1. [IBM Cloud](http://ibm.biz/devday2) account
