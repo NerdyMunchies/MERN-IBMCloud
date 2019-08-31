@@ -410,6 +410,8 @@ presets: ['es2015', 'stage-0', 'react'],
 ```
 $ npm i axios classnames jwt-decode react-redux react-router-dom redux redux-thunk
 ```
+Moreover, follow the steps to integrate [Materialize](https://materializecss.com/getting-started.html?source=post_page-----6eac4e38ee82----------------------). It will help with the styling of the app (though it is not the focus of this tutorial).
+
 ## Next Steps
 For the react + redux part of the application, copy the content of the content of app folder from this repository and paste into your project
 
